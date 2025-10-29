@@ -92,7 +92,9 @@
         ```bash
         docker inspect $(docker-compose ps -q nginx) | grep "IPAddress"
         ```
-        
+        ```Powershell
+        docker inspect $(docker-compose ps -q nginx) | Select-String "IPAddress"
+        ```
     - Participants should copy or write down this IP address (e.g., 172.19.0.2) for the next steps.
     - Confirm no access to the private IP address in a browser.
 
