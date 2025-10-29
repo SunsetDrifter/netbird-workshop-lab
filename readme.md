@@ -10,7 +10,7 @@
 
 1. Go to https://netbird.io and click **Get Started**
 2. Authenticate with your IdP (Google, Microsoft, or GitHub)
-3. Click **Install NetBird** and select your operating system
+3. Click [Install NetBird](https://app.netbird.io/install) and select your operating system
 4. Download and install the client
 5. Click the NetBird icon in your system tray/menu bar and select **Connect**
 6. Authenticate again in the browser to authorize your device
