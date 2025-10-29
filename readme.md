@@ -110,7 +110,7 @@
    - **Ports:** 80
    - **Flow:** Unidirectional (->)
 3. Click **Add Policy**
-4. Open your browser and navigate to your nginx container's IP (e.g., http://172.19.0.2)
+4. Open your browser and navigate to your nginx container's IP (e.g., http://172.18.0.2)
 5. You should see the "Welcome to nginx!" page
 
 ---
