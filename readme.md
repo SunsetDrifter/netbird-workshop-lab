@@ -3,7 +3,7 @@
 ## Prerequisites
 
 - Laptop (Mac, Windows, or Linux).
-- Docker Desktop installed and running.
+- Docker installed and running.
 - Google, GitHub, Microsoft, or Email account for NetBird signup.
 
 ## Lab 1.1: Account Setup and First Peer Enrollment
