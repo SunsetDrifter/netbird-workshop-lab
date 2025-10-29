@@ -1,0 +1,22 @@
+version: "3.7"
+services:
+  nginx:
+    image: nginx:latest
+    container_name: nginx-server
+    # No ports needed here, we will access it over the private network
+
+  netbird-router:
+    image: netbirdio/netbird:latest
+    container_name: netbird-router
+    cap_add:
+      - NET_ADMIN
+      - SYS_ADMIN
+      - SYS_RESOURCE
+    environment:
+      # Replace the key below with the one you just created
+      - NB_SETUP_KEY=YOUR_SETUP_KEY_HERE
+    volumes:
+      - netbird-client:/var/lib/netbird
+
+volumes:
+  netbird-client:
