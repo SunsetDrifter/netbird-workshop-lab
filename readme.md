@@ -95,7 +95,7 @@
         ```Powershell
         docker inspect $(docker-compose ps -q nginx) | Select-String "IPAddress"
         ```
-    - Participants should copy or write down this IP address (e.g., 172.19.0.2) for the next steps.
+    - Participants should copy or write down this IP address (e.g., 172.18.0.2) for the next steps.
     - Confirm no access to the private IP address in a browser.
 
 ### **Lab 2.3: Configuring the Container-Based Routing Peer**
@@ -109,7 +109,7 @@
 3. **Define the Network Resource:** Within the new network's configuration page, under the "Resources" section, click **Add Resource**.
 4. **Configure the Resource:**
     - **Name:** Nginx Server
-    - **Address:** Enter the private IP address of the nginx-server container identified in the previous lab, followed by a /32 CIDR suffix (e.g., 172.19.0.2/32).
+    - **Address:** Enter the private IP address of the nginx-server container identified in the previous lab, followed by a /32 CIDR suffix (e.g., 172.18.0.2/32).
     - **Assign to Group:** In the "Assign to a Destination Group" field, select the Workshop-Resources group.
     - Click **Add Resource**.
 5. **Assign a Routing Peer:** Under the "Routing Peers" section, click **Add Routing Peer**. A list of available peers will appear. Select the netbird-router peer (Docker container peer).
@@ -131,7 +131,7 @@
     - **Ports:** Enter 80.
     - **Flow:** Set the flow to unidirectional (->). This enforces least privilege.
 3. **Save the Policy:** Click **Add Policy**.
-4. **Final Verification:** Instruct participants to open a new browser tab and navigate directly to the private IP address of their nginx-server container (e.g., http://172.19.0.2).
+4. **Final Verification:** Instruct participants to open a new browser tab and navigate directly to the private IP address of their nginx-server container (e.g., http://172.18.0.2).
 5. **The Result:** The "Welcome to nginx!" page should load successfully.
 
 ---
