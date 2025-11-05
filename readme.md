@@ -21,7 +21,7 @@
 
 **Objective:** Move from default "allow all" to "default deny" with explicit access rules.
 
-1. Test NGINX working in browser BEFORE disabling policy. http://10.39.96.3
+1. Test NGINX working in browser before disabling policy. http://10.39.96.3
 2. **Ping** the NGINX server, then disable that policy while ping is active
 3. Navigate to **Access Control** -> **Policies** and observe the "Default" policy (All → All)
 4. Delete the "Default" policy to establish a "default deny" posture
