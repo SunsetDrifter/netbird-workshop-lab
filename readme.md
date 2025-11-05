@@ -64,7 +64,7 @@
 4. Under "Routing Peers", click **Add Routing Peer** and select the peer you installed in the VPS
 6. Click **Add Routing Peer** to save
 
-## Lab 2.4: Defining Access and Validating the Connection
+## Lab 3.2: Defining Access and Validating the Connection
 
 1. Setup the poicly when prompted or navigate to **Access Control** -> **Policies** and click **Add Policy**
 2. Configure the policy:
