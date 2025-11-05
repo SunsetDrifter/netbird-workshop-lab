@@ -17,7 +17,7 @@
 7. Verify your laptop appears in the **Peers** tab with a "Connected" status and a NetBird IP address
 8. Navigate to Team - Users and add your user to a group called 'Admins'
 
-## Lab 1.2: Implementing Zero Trust Access Policies
+## Lab 1.2: Implementing Zero Trust Access
 
 **Objective:** Move from default "allow all" to "default deny" with explicit access rules.
 
