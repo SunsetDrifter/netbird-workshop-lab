@@ -35,7 +35,7 @@
    - Enable **Reusable**
 3. Click **Create Key**, copy it, and save for the next lab
 
-## Lab 2.2: Deploying the Simulated Private Client Network
+## Lab 2.2: Set Up the Routing Peer in the Virtual Private Cloud
 
 1. SSH into the public IP address on the index card.
 2. Install NetBird: curl -fsSL https://pkgs.netbird.io/install.sh | sh
@@ -43,7 +43,7 @@
 4. Replace `YOUR_SETUP_KEY_HERE` with your actual setup key
 5. Enter and confirm the routing peer is listed in the Peers view.
 
-## Lab 2.3: Configuring the Container-Based Routing Peer
+## Lab 2.3: Configuring the NetBird Network
 
 1. Navigate to **Networks** tab and click **Add Network**
 2. Name it (e.g., "VPS Network") and click **Create Network**
@@ -66,7 +66,7 @@
    - **Ports:** 80
    - **Flow:** Unidirectional (->)
 3. Click **Add Policy**
-4. Open your browser and navigate to your nginx container's IP: http://10.39.96.3
+4. Open your browser and navigate to your nginx container's IP: **http://10.39.96.3**
 5. You should see the "Welcome to nginx!" page
 
 ---
